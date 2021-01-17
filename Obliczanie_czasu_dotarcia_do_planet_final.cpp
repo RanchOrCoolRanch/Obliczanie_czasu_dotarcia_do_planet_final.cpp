@@ -3,10 +3,19 @@
 //Obliczanie czasu dotarcia do planet różnych.
 #include <iostream>
 using namespace std;
-int main()
-{
+int main(){
+//int string
 string pytanie_o_planete, pytanie_o_planete2, pytanie_o_planete_skrypt = "Czy jestes pewien ze chcesz obliczyc: ",ok = "[OK]", pytanie_predkosc, grawitacja_ziemi_txt = "Nie uciekniesz grawitacji ziemi!";
 int grawitacja_ziemi = 40320, szybkosc, ksiezyc_odl = 384399,Jowisz_odl = 628800000,mars_odl = 78338376, saturn_odl = 1277127523, slonce_odl = 149597890;
+string rocket_1 = "        |";
+string rocket_2 = "       @ @";
+string rocket_3 = "      @ _ @";
+string rocket_4 = "     |.o '.|";
+string rocket_5 = "     |'._.'|";
+string rocket_6 = "     |     |" ;
+string rocket_7 ="   ,'|  |  |`.";
+string rocket_8 ="  |  |  |  |  |";
+string rocket_9 ="  |,-'--|--'-.|";
 cout << "             _____"  << endl;
 cout << "        ,-:` |:',`'-, "  << endl;
 cout << "     .'-;_,;  ':-;_,'."  << endl;
@@ -32,15 +41,7 @@ do{
   if (pytanie_o_planete == "Ksiezyc"){
       cout << "Program do mierzenia czasu dotarcia do Ksiezyca!" << endl;
       loop_predkosc_ksiezyc:
-      cout << "        |" << endl;
-      cout << "       @ @" << endl;
-      cout << "      @ _ @" << endl;
-      cout << "     |.o '.|" << endl;
-      cout << "     |'._.'|" << endl;
-      cout << "     |     |" << endl;
-      cout << "   ,'|  |  |`." << endl;
-      cout << "  |  |  |  |  |" << endl;
-      cout << "  |,-'--|--'-.|" << endl;
+      cout << rocket_1 << endl;cout << rocket_2 << endl;cout << rocket_3 << endl;cout << rocket_4 << endl;cout << rocket_5 << endl;cout << rocket_6 << endl;cout << rocket_7 << endl;cout << rocket_8 << endl;cout << rocket_9 << endl;
       cout << "Podaj predkosc w km/h" << endl;
       cin >> szybkosc;
       cout << "Twoja szybkosc: " << szybkosc << " km/h"   << endl;
@@ -89,15 +90,7 @@ do{
   if (pytanie_o_planete == "Jowisz"){
       cout << "Program do mierzenia czasu dotarcia do Jowisza!" << endl;
       loop_predkosc_jowisz:
-      cout << "        |" << endl;
-      cout << "       @ @" << endl;
-      cout << "      @ _ @" << endl;
-      cout << "     |.o '.|" << endl;
-      cout << "     |'._.'|" << endl;
-      cout << "     |     |" << endl;
-      cout << "   ,'|  |  |`." << endl;
-      cout << "  |  |  |  |  |" << endl;
-      cout << "  |,-'--|--'-.|" << endl;
+      cout << rocket_1 << endl;cout << rocket_2 << endl;cout << rocket_3 << endl;cout << rocket_4 << endl;cout << rocket_5 << endl;cout << rocket_6 << endl;cout << rocket_7 << endl;cout << rocket_8 << endl;cout << rocket_9 << endl;
       cout << "Podaj predkosc w km/h" << endl;
       cin >> szybkosc;
       cout << "Twoja szybkosc: " << szybkosc << " km/h"   << endl;
@@ -132,15 +125,7 @@ do{
   if (pytanie_o_planete == "Mars"){
       cout << "Program do mierzenia czasu dotarcia do Marsa!" << endl;
       loop_predkosc_mars:
-      cout << "        |" << endl;
-      cout << "       @ @" << endl;
-      cout << "      @ _ @" << endl;
-      cout << "     |.o '.|" << endl;
-      cout << "     |'._.'|" << endl;
-      cout << "     |     |" << endl;
-      cout << "   ,'|  |  |`." << endl;
-      cout << "  |  |  |  |  |" << endl;
-      cout << "  |,-'--|--'-.|" << endl;
+      cout << rocket_1 << endl;cout << rocket_2 << endl;cout << rocket_3 << endl;cout << rocket_4 << endl;cout << rocket_5 << endl;cout << rocket_6 << endl;cout << rocket_7 << endl;cout << rocket_8 << endl;cout << rocket_9 << endl;
       cout << "Podaj predkosc w km/h" << endl;
       cin >> szybkosc;
       cout << "Twoja szybkosc: " << szybkosc << " km/h"   << endl;
@@ -159,6 +144,14 @@ do{
           }
           cout << mars_odl << " / " << szybkosc << " = " << mars_odl / szybkosc << "h" << endl;
           cout << "Uda ci się dostać do Marsa w " << mars_odl / szybkosc << "h" << endl;
+          cout << "      @@@@@@@@" << endl;
+          cout << "    @@@@@@@@@@@@" << endl;
+          cout << "  @@@@@@@@@@@@@@@@@" << endl;
+          cout << "  @@@@@@@@@@@@@@@@@@" << endl;
+          cout << "  @@@@@@@@@@@@@@@@@@" << endl;
+          cout << "  @@@@@@@@@@@@@@@@@@" << endl;
+          cout << "    @@@@@@@@@@@@@@" << endl;
+          cout << "      @@@@@@@@" << endl;
         goto loop;
         }
       } while(pytanie_predkosc != "y" || pytanie_predkosc != "n");
@@ -168,15 +161,7 @@ do{
   if (pytanie_o_planete == "Saturn"){
       cout << "Program do mierzenia czasu dotarcia do Saturna!" << endl;
       loop_predkosc_saturn:
-      cout << "        |" << endl;
-      cout << "       @ @" << endl;
-      cout << "      @ _ @" << endl;
-      cout << "     |.o '.|" << endl;
-      cout << "     |'._.'|" << endl;
-      cout << "     |     |" << endl;
-      cout << "   ,'|  |  |`." << endl;
-      cout << "  |  |  |  |  |" << endl;
-      cout << "  |,-'--|--'-.|" << endl;
+      cout << rocket_1 << endl;cout << rocket_2 << endl;cout << rocket_3 << endl;cout << rocket_4 << endl;cout << rocket_5 << endl;cout << rocket_6 << endl;cout << rocket_7 << endl;cout << rocket_8 << endl;cout << rocket_9 << endl;
       cout << "Podaj predkosc w km/h" << endl;
       cin >> szybkosc;
       cout << "Twoja szybkosc: " << szybkosc << " km/h"   << endl;
@@ -210,15 +195,7 @@ do{
   if (pytanie_o_planete == "Slonce"){
       cout << "Program do mierzenia czasu dotarcia do Slonca!" << endl;
       loop_predkosc_slonce:
-      cout << "        |" << endl;
-      cout << "       @ @" << endl;
-      cout << "      @ _ @" << endl;
-      cout << "     |.o '.|" << endl;
-      cout << "     |'._.'|" << endl;
-      cout << "     |     |" << endl;
-      cout << "   ,'|  |  |`." << endl;
-      cout << "  |  |  |  |  |" << endl;
-      cout << "  |,-'--|--'-.|" << endl;
+      cout << rocket_1 << endl;cout << rocket_2 << endl;cout << rocket_3 << endl;cout << rocket_4 << endl;cout << rocket_5 << endl;cout << rocket_6 << endl;cout << rocket_7 << endl;cout << rocket_8 << endl;cout << rocket_9 << endl;
       cout << "Podaj predkosc w km/h" << endl;
       cin >> szybkosc;
       cout << "Twoja szybkosc: " << szybkosc << " km/h"   << endl;
