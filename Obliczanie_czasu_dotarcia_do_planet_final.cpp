@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 string pytanie_o_planete, pytanie_o_planete2, pytanie_o_planete_skrypt = "Czy jestes pewien ze chcesz obliczyc: ";
+int grawitacja_ziemi = 40320, szybkosc, ksiezyc_odl, Jowisz_odl,mars_odl, saturn_odl, slonce_odl;
 cout << "             _____"  << endl;
 cout << "        ,-:` |:',`'-, "  << endl;
 cout << "     .'-;_,;  ':-;_,'."  << endl;
@@ -29,8 +30,6 @@ do{
   getline (cin, pytanie_o_planete2);
   if (pytanie_o_planete2 == "y"){
   if (pytanie_o_planete == "Ksiezyc"){
-    int grawitacja_ziemi, szybkosc, ksiezyc_odl;
-    grawitacja_ziemi = 40320; //km/h
     ksiezyc_odl = 384399; //km
       string ok = "[OK]", pytanie_predkosc;
       cout << "Program do mierzenia czasu dotarcia do księżyca!" << endl;
@@ -60,8 +59,6 @@ do{
 
   }
   if (pytanie_o_planete == "Jowisz"){
-    int grawitacja_ziemi, szybkosc, Jowisz_odl;
-    grawitacja_ziemi = 40320; //km/h
     Jowisz_odl = 628800000; //km
       string ok = "[OK]", pytanie_predkosc;
       cout << "Program do mierzenia czasu dotarcia do Jowisza!" << endl;
@@ -89,8 +86,6 @@ do{
       } while(pytanie_predkosc != "y" || pytanie_predkosc != "n");
   }
   if (pytanie_o_planete == "Mars"){
-    int grawitacja_ziemi, szybkosc, mars_odl;
-    grawitacja_ziemi = 40320; //km/h
     mars_odl = 78338376; //km
       string ok = "[OK]", pytanie_predkosc;
       cout << "Program do mierzenia czasu dotarcia do Marsa!" << endl;
@@ -120,8 +115,6 @@ do{
 
   }
   if (pytanie_o_planete == "Saturn"){
-    int grawitacja_ziemi, szybkosc, saturn_odl;
-    grawitacja_ziemi = 40320; //km/h
     saturn_odl = 1277127523; //km
       string ok = "[OK]", pytanie_predkosc;
       cout << "Program do mierzenia czasu dotarcia do Saturna!" << endl;
@@ -150,8 +143,6 @@ do{
 
   }
   if (pytanie_o_planete == "Slonce"){
-    int grawitacja_ziemi, szybkosc, slonce_odl;
-    grawitacja_ziemi = 40320; //km/h
     slonce_odl = 149597890; //km
       string ok = "[OK]", pytanie_predkosc;
       cout << "Program do mierzenia czasu dotarcia do Slonca!" << endl;
